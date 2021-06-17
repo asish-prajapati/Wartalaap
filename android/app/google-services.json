@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "872166509717",
+    "project_id": "wartalaap-96434",
+    "storage_bucket": "wartalaap-96434.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872166509717:android:d8311a81728ccb085e1f9c",
+        "android_client_info": {
+          "package_name": "com.myproject2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872166509717-u6qdusi1kbm08sij6b00phvnp548ottv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8oNsD3yMgjDeFrYdwBQiwTAL5HjWnsxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872166509717-u6qdusi1kbm08sij6b00phvnp548ottv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

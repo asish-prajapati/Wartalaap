@@ -9,10 +9,12 @@ import {
   Text,
   useColorScheme,
   View,
-  
 } from 'react-native';
-import LoginSignupStack from './navigations/LoginSignupStack'
+import LoginSignupStack from './navigations/LoginSignupStack';
+
 import {DefaultTheme, Provider as PaperProvider} from 'react-native-paper';
+import {useAnimatedGestureHandler} from 'react-native-reanimated';
+import {useGestureHandlerRef} from '@react-navigation/stack';
 
 const theme = {
   ...DefaultTheme,
@@ -23,12 +25,12 @@ const theme = {
   },
 };
 
-const App = () => (
-  <PaperProvider theme={theme}>
-  <StatusBar barStyle="light-content" backgroundColor="#21cb78" />
- 
-    
-    {/* <View style={styles.container}>
+const App = () => {
+  return (
+    <PaperProvider theme={theme}>
+      <StatusBar barStyle="light-content" backgroundColor="#21cb78" />
+
+      {/* <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.headerText}>WartalAap</Text>
       </View>
@@ -41,11 +43,10 @@ const App = () => (
         <Text>Hello hellohhi bye</Text>
       </View>
     </View> */}
-   <LoginSignupStack/>
-   
-  </PaperProvider>
- 
-);
+      <LoginSignupStack />
+    </PaperProvider>
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
